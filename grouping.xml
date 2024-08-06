@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentReport.TestListener"></listener>
+	</listeners>
+	<parameter name="browser" value="chrome"></parameter>
+  <test thread-count="5" name="Test">
+	   
+    <groups>
+		<run>
+			<include name="launch"></include>
+			<include name="group1"></include>
+			<exclude name="group2"></exclude>
+			<include name="close"></include>
+		</run>	
+	</groups>
+
+	<classes>
+      <class name="testClasses.LoginPageTestClass"/>
+      <class name="testClasses.RegisterPatientTestClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

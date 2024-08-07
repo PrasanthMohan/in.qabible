@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="4" total="27" passed="20" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T02:58:18 IST" name="Suite" finished-at="2024-08-08T03:01:21 IST" duration-ms="183007">
+    <groups>
+      <group name="search">
+        <method signature="WorkerTestClass.verifyWorkerSearch()[pri:2, instance:testClasses.WorkerTestClass@4ff4357f]" name="verifyWorkerSearch" class="testClasses.WorkerTestClass"/>
+        <method signature="ClientTestClass.verifyClientSearch()[pri:2, instance:testClasses.ClientTestClass@13d73fa]" name="verifyClientSearch" class="testClasses.ClientTestClass"/>
+      </group> <!-- search -->
+      <group name="create">
+        <method signature="WorkerTestClass.verifyToCreateWorker()[pri:1, instance:testClasses.WorkerTestClass@4ff4357f]" name="verifyToCreateWorker" class="testClasses.WorkerTestClass"/>
+        <method signature="ClientTestClass.verifyToCreateClient()[pri:1, instance:testClasses.ClientTestClass@13d73fa]" name="verifyToCreateClient" class="testClasses.ClientTestClass"/>
+      </group> <!-- create -->
+      <group name="paging">
+        <method signature="WorkerTestClass.verifyPaginationWorkerPage()[pri:3, instance:testClasses.WorkerTestClass@4ff4357f]" name="verifyPaginationWorkerPage" class="testClasses.WorkerTestClass"/>
+        <method signature="ClientTestClass.verifyPaginationClientPage()[pri:3, instance:testClasses.ClientTestClass@13d73fa]" name="verifyPaginationClientPage" class="testClasses.ClientTestClass"/>
+      </group> <!-- paging -->
+    </groups>
+    <test started-at="2024-08-08T02:58:18 IST" name="ChromeTest" finished-at="2024-08-08T02:59:43 IST" duration-ms="85227">
+      <class name="testClasses.WorkerTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:58:36 IST" name="beforeMethod" finished-at="2024-08-08T02:58:39 IST" duration-ms="2891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateWorker()[pri:1, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:58:39 IST" name="verifyToCreateWorker" finished-at="2024-08-08T02:58:59 IST" duration-ms="20293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateWorker -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:58:59 IST" name="afterMethod" finished-at="2024-08-08T02:58:59 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToCreateWorker status=SUCCESS method=WorkerTestClass.verifyToCreateWorker()[pri:1, instance:testClasses.WorkerTestClass@4ff4357f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:19 IST" name="beforeMethod" finished-at="2024-08-08T02:59:22 IST" duration-ms="3008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyWorkerSearch()[pri:2, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:22 IST" name="verifyWorkerSearch" finished-at="2024-08-08T02:59:26 IST" duration-ms="3936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkerSearch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:26 IST" name="afterMethod" finished-at="2024-08-08T02:59:26 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWorkerSearch status=SUCCESS method=WorkerTestClass.verifyWorkerSearch()[pri:2, instance:testClasses.WorkerTestClass@4ff4357f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:32 IST" name="beforeMethod" finished-at="2024-08-08T02:59:35 IST" duration-ms="3135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyPaginationWorkerPage()[pri:3, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:35 IST" name="verifyPaginationWorkerPage" finished-at="2024-08-08T02:59:39 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationWorkerPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.WorkerTestClass@4ff4357f]" started-at="2024-08-08T02:59:39 IST" name="afterMethod" finished-at="2024-08-08T02:59:39 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaginationWorkerPage status=SUCCESS method=WorkerTestClass.verifyPaginationWorkerPage()[pri:3, instance:testClasses.WorkerTestClass@4ff4357f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.WorkerTestClass -->
+      <class name="testClasses.HomePageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:58:30 IST" name="beforeMethod" finished-at="2024-08-08T02:58:33 IST" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyMainMenuLinkTitles()[pri:1, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:58:33 IST" name="verifyMainMenuLinkTitles" finished-at="2024-08-08T02:58:36 IST" duration-ms="2514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainMenuLinkTitles -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:58:36 IST" name="afterMethod" finished-at="2024-08-08T02:58:36 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainMenuLinkTitles status=SUCCESS method=HomePageTestClass.verifyMainMenuLinkTitles()[pri:1, instance:testClasses.HomePageTestClass@12ed9db6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:58:59 IST" name="beforeMethod" finished-at="2024-08-08T02:59:02 IST" duration-ms="3100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogOutProcess()[pri:2, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:59:02 IST" name="verifyLogOutProcess" finished-at="2024-08-08T02:59:06 IST" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutProcess -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:59:06 IST" name="afterMethod" finished-at="2024-08-08T02:59:06 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOutProcess status=SUCCESS method=HomePageTestClass.verifyLogOutProcess()[pri:2, instance:testClasses.HomePageTestClass@12ed9db6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:59:26 IST" name="beforeMethod" finished-at="2024-08-08T02:59:29 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFooterText()[pri:3, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:59:29 IST" name="verifyFooterText" finished-at="2024-08-08T02:59:32 IST" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterText -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@12ed9db6]" started-at="2024-08-08T02:59:32 IST" name="afterMethod" finished-at="2024-08-08T02:59:32 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterText status=SUCCESS method=HomePageTestClass.verifyFooterText()[pri:3, instance:testClasses.HomePageTestClass@12ed9db6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.HomePageTestClass -->
+      <class name="testClasses.LoginPageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:58:20 IST" name="beforeMethod" finished-at="2024-08-08T02:58:27 IST" duration-ms="7572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verfySuccesfullLogin(java.lang.String,java.lang.String)[pri:1, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:58:27 IST" name="verfySuccesfullLogin" data-provider="successfullLogin" finished-at="2024-08-08T02:58:30 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfySuccesfullLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:58:30 IST" name="afterMethod" finished-at="2024-08-08T02:58:30 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfySuccesfullLogin status=SUCCESS method=LoginPageTestClass.verfySuccesfullLogin(java.lang.String,java.lang.String)[pri:1, instance:testClasses.LoginPageTestClass@46944ca9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:06 IST" name="beforeMethod" finished-at="2024-08-08T02:59:09 IST" duration-ms="2996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:09 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T02:59:11 IST" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:11 IST" name="afterMethod" finished-at="2024-08-08T02:59:11 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:11 IST" name="beforeMethod" finished-at="2024-08-08T02:59:14 IST" duration-ms="3039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:14 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T02:59:15 IST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:15 IST" name="afterMethod" finished-at="2024-08-08T02:59:15 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:15 IST" name="beforeMethod" finished-at="2024-08-08T02:59:18 IST" duration-ms="2913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:18 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T02:59:19 IST" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:19 IST" name="afterMethod" finished-at="2024-08-08T02:59:19 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@46944ca9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:39 IST" name="beforeMethod" finished-at="2024-08-08T02:59:43 IST" duration-ms="4411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheExpectedPageisOpensWhileHittingTheUrl()[pri:3, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:43 IST" name="verifyTheExpectedPageisOpensWhileHittingTheUrl" finished-at="2024-08-08T02:59:43 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheExpectedPageisOpensWhileHittingTheUrl -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@46944ca9]" started-at="2024-08-08T02:59:43 IST" name="afterMethod" finished-at="2024-08-08T02:59:43 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheExpectedPageisOpensWhileHittingTheUrl status=SUCCESS method=LoginPageTestClass.verifyTheExpectedPageisOpensWhileHittingTheUrl()[pri:3, instance:testClasses.LoginPageTestClass@46944ca9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LoginPageTestClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-08-08T02:59:44 IST" name="EdgeTest" finished-at="2024-08-08T03:01:21 IST" duration-ms="97343">
+      <class name="testClasses.HomePageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T02:59:50 IST" name="beforeMethod" finished-at="2024-08-08T02:59:53 IST" duration-ms="2955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyMainMenuLinkTitles()[pri:1, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T02:59:53 IST" name="verifyMainMenuLinkTitles" finished-at="2024-08-08T02:59:55 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainMenuLinkTitles -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T02:59:55 IST" name="afterMethod" finished-at="2024-08-08T02:59:55 IST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainMenuLinkTitles status=SUCCESS method=HomePageTestClass.verifyMainMenuLinkTitles()[pri:1, instance:testClasses.HomePageTestClass@6399551e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:00:26 IST" name="beforeMethod" finished-at="2024-08-08T03:00:31 IST" duration-ms="4919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogOutProcess()[pri:2, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:00:31 IST" name="verifyLogOutProcess" finished-at="2024-08-08T03:00:35 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutProcess -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:00:35 IST" name="afterMethod" finished-at="2024-08-08T03:00:35 IST" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOutProcess status=SUCCESS method=HomePageTestClass.verifyLogOutProcess()[pri:2, instance:testClasses.HomePageTestClass@6399551e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:01:05 IST" name="beforeMethod" finished-at="2024-08-08T03:01:13 IST" duration-ms="7400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyFooterText()[pri:3, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:01:13 IST" name="verifyFooterText" finished-at="2024-08-08T03:01:15 IST" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterText -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.HomePageTestClass@6399551e]" started-at="2024-08-08T03:01:15 IST" name="afterMethod" finished-at="2024-08-08T03:01:15 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterText status=SUCCESS method=HomePageTestClass.verifyFooterText()[pri:3, instance:testClasses.HomePageTestClass@6399551e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.HomePageTestClass -->
+      <class name="testClasses.ClientTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T02:59:55 IST" name="beforeMethod" finished-at="2024-08-08T02:59:58 IST" duration-ms="3005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="verifyToCreateClient()[pri:1, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T02:59:58 IST" name="verifyToCreateClient" finished-at="2024-08-08T03:00:14 IST" duration-ms="15467" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //table[@id='w0']//tr[3]//td[1]' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //table[@id='w0']//tr[3]//td[1]' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at utilities.ExplicitWaitClass.visibitlityOfElementWait(ExplicitWaitClass.java:60)
+at pageClasses.ClientClass.getNameOfCreatedClient(ClientClass.java:155)
+at testClasses.ClientTestClass.verifyToCreateClient(ClientTestClass.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='w0']//tr[3]//td[1]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [adbcbcdc1f28b6cbf8ccfbc670e1f7ad, findElement {using=xpath, value=//table[@id='w0']//tr[3]//td[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55564}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55564/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adbcbcdc1f28b6cbf8ccfbc670e1f7ad
+at jdk.internal.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateClient -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:14 IST" name="afterMethod" finished-at="2024-08-08T03:00:14 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyToCreateClient status=SKIP method=ClientTestClass.verifyToCreateClient()[pri:1, instance:testClasses.ClientTestClass@13d73fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:14 IST" name="beforeMethod" finished-at="2024-08-08T03:00:18 IST" duration-ms="4465" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+at testClasses.BaseClass.beforeMethod(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateClient()[pri:1, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:18 IST" name="verifyToCreateClient" finished-at="2024-08-08T03:00:26 IST" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateClient -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:26 IST" name="afterMethod" finished-at="2024-08-08T03:00:26 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:26 IST" name="beforeMethod" finished-at="2024-08-08T03:00:26 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyClientSearch()[pri:2, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:26 IST" name="verifyClientSearch" finished-at="2024-08-08T03:00:26 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+at testClasses.BaseClass.beforeMethod(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientSearch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:00:26 IST" name="afterMethod" finished-at="2024-08-08T03:00:26 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyPaginationClientPage()[pri:3, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:01:15 IST" name="verifyPaginationClientPage" finished-at="2024-08-08T03:01:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+at testClasses.BaseClass.beforeMethod(BaseClass.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaginationClientPage -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:01:15 IST" name="beforeMethod" finished-at="2024-08-08T03:01:15 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ClientTestClass@13d73fa]" started-at="2024-08-08T03:01:15 IST" name="afterMethod" finished-at="2024-08-08T03:01:15 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ClientTestClass -->
+      <class name="testClasses.LoginPageTestClass">
+        <test-method is-config="true" signature="createReport(org.testng.ITestContext)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T02:58:18 IST" name="createReport" finished-at="2024-08-08T02:58:18 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@444e4371]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T02:59:44 IST" name="beforeMethod" finished-at="2024-08-08T02:59:47 IST" duration-ms="3208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verfySuccesfullLogin(java.lang.String,java.lang.String)[pri:1, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T02:59:47 IST" name="verfySuccesfullLogin" data-provider="successfullLogin" finished-at="2024-08-08T02:59:49 IST" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfySuccesfullLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T02:59:49 IST" name="afterMethod" finished-at="2024-08-08T02:59:50 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfySuccesfullLogin status=SUCCESS method=LoginPageTestClass.verfySuccesfullLogin(java.lang.String,java.lang.String)[pri:1, instance:testClasses.LoginPageTestClass@1c32386d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:35 IST" name="beforeMethod" finished-at="2024-08-08T03:00:48 IST" duration-ms="13448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:48 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T03:00:50 IST" duration-ms="1520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:50 IST" name="afterMethod" finished-at="2024-08-08T03:00:50 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:50 IST" name="beforeMethod" finished-at="2024-08-08T03:00:55 IST" duration-ms="4789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:55 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T03:00:56 IST" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1q2w3e4r]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:56 IST" name="afterMethod" finished-at="2024-08-08T03:00:56 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:00:56 IST" name="beforeMethod" finished-at="2024-08-08T03:01:02 IST" duration-ms="5853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:01:02 IST" name="verifyUnsuccessfulLogin" data-provider="unsuccessfullLogin" finished-at="2024-08-08T03:01:05 IST" duration-ms="3219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carol123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:01:05 IST" name="afterMethod" finished-at="2024-08-08T03:01:05 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessfulLogin(java.lang.String,java.lang.String)[pri:2, instance:testClasses.LoginPageTestClass@1c32386d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:01:15 IST" name="beforeMethod" finished-at="2024-08-08T03:01:21 IST" duration-ms="5692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheExpectedPageisOpensWhileHittingTheUrl()[pri:3, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:01:21 IST" name="verifyTheExpectedPageisOpensWhileHittingTheUrl" finished-at="2024-08-08T03:01:21 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheExpectedPageisOpensWhileHittingTheUrl -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.LoginPageTestClass@1c32386d]" started-at="2024-08-08T03:01:21 IST" name="afterMethod" finished-at="2024-08-08T03:01:21 IST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheExpectedPageisOpensWhileHittingTheUrl status=SUCCESS method=LoginPageTestClass.verifyTheExpectedPageisOpensWhileHittingTheUrl()[pri:3, instance:testClasses.LoginPageTestClass@1c32386d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LoginPageTestClass -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

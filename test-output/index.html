@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Asus\eclipse-workspace\in.qabible\crossBrowserTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,  3 skipped,  20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.ClientTestClass" class="method navigator-link" hash-for-method="verifyClientSearch">verifyClientSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.ClientTestClass" class="method navigator-link" hash-for-method="verifyPaginationClientPage">verifyPaginationClientPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.ClientTestClass" class="method navigator-link" hash-for-method="verifyToCreateClient">verifyToCreateClient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verfySuccesfullLogin(carol, 1q2w3e4r)">verfySuccesfullLogin(carol, 1q2w3e4r)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verfySuccesfullLogin(carol, 1q2w3e4r)">verfySuccesfullLogin(carol, 1q2w3e4r)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyFooterText">verifyFooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyFooterText">verifyFooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyLogOutProcess">verifyLogOutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyLogOutProcess">verifyLogOutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyMainMenuLinkTitles">verifyMainMenuLinkTitles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.HomePageTestClass" class="method navigator-link" hash-for-method="verifyMainMenuLinkTitles">verifyMainMenuLinkTitles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.WorkerTestClass" class="method navigator-link" hash-for-method="verifyPaginationWorkerPage">verifyPaginationWorkerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyTheExpectedPageisOpensWhileHittingTheUrl">verifyTheExpectedPageisOpensWhileHittingTheUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyTheExpectedPageisOpensWhileHittingTheUrl">verifyTheExpectedPageisOpensWhileHittingTheUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.ClientTestClass" class="method navigator-link" hash-for-method="verifyToCreateClient">verifyToCreateClient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.WorkerTestClass" class="method navigator-link" hash-for-method="verifyToCreateWorker">verifyToCreateWorker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol, qwer1234)">verifyUnsuccessfulLogin(carol, qwer1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol123, qwer1234)">verifyUnsuccessfulLogin(carol123, qwer1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol1, 1q2w3e4r)">verifyUnsuccessfulLogin(carol1, 1q2w3e4r)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol, qwer1234)">verifyUnsuccessfulLogin(carol, qwer1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol123, qwer1234)">verifyUnsuccessfulLogin(carol123, qwer1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.LoginPageTestClass" class="method navigator-link" hash-for-method="verifyUnsuccessfulLogin(carol1, 1q2w3e4r)">verifyUnsuccessfulLogin(carol1, 1q2w3e4r)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testClasses.WorkerTestClass" class="method navigator-link" hash-for-method="verifyWorkerSearch">verifyWorkerSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testClasses.ClientTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClientSearch">
+                  </a> <!-- verifyClientSearch -->
+                  <span class="method-name">verifyClientSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;maximized&apos;, current state is &apos;minimized&apos;
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+	at testClasses.BaseClass.beforeMethod(BaseClass.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaginationClientPage">
+                  </a> <!-- verifyPaginationClientPage -->
+                  <span class="method-name">verifyPaginationClientPage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: failed to change window state to &apos;maximized&apos;, current state is &apos;minimized&apos;
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ffcbbf40de92fd2cd472f0d6a3bce106, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55602}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55602/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcbbf40de92fd2cd472f0d6a3bce106
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+	at testClasses.BaseClass.beforeMethod(BaseClass.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToCreateClient">
+                  </a> <!-- verifyToCreateClient -->
+                  <span class="method-name">verifyToCreateClient</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //table[@id=&apos;w0&apos;]//tr[3]//td[1]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at utilities.ExplicitWaitClass.visibitlityOfElementWait(ExplicitWaitClass.java:60)
+	at pageClasses.ClientClass.getNameOfCreatedClient(ClientClass.java:155)
+	at testClasses.ClientTestClass.verifyToCreateClient(ClientTestClass.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;w0&apos;]//tr[3]//td[1]&quot;}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [adbcbcdc1f28b6cbf8ccfbc670e1f7ad, findElement {using=xpath, value=//table[@id=&apos;w0&apos;]//tr[3]//td[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55564}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\Asus\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55564/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adbcbcdc1f28b6cbf8ccfbc670e1f7ad
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 31 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.ClientTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToCreateClient">
+                  </a> <!-- verifyToCreateClient -->
+                  <span class="method-name">verifyToCreateClient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.LoginPageTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfySuccesfullLogin(carol, 1q2w3e4r)">
+                  </a> <!-- verfySuccesfullLogin(carol, 1q2w3e4r) -->
+                  <span class="method-name">verfySuccesfullLogin</span>
+                  <span class="parameters">(carol,1q2w3e4r)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verfySuccesfullLogin(carol, 1q2w3e4r)">
+                  </a> <!-- verfySuccesfullLogin(carol, 1q2w3e4r) -->
+                  <span class="method-name">verfySuccesfullLogin</span>
+                  <span class="parameters">(carol,1q2w3e4r)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheExpectedPageisOpensWhileHittingTheUrl">
+                  </a> <!-- verifyTheExpectedPageisOpensWhileHittingTheUrl -->
+                  <span class="method-name">verifyTheExpectedPageisOpensWhileHittingTheUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheExpectedPageisOpensWhileHittingTheUrl">
+                  </a> <!-- verifyTheExpectedPageisOpensWhileHittingTheUrl -->
+                  <span class="method-name">verifyTheExpectedPageisOpensWhileHittingTheUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol, qwer1234)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol, qwer1234) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol,qwer1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol123, qwer1234)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol123, qwer1234) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol123,qwer1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol1, 1q2w3e4r)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol1, 1q2w3e4r) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol1,1q2w3e4r)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol, qwer1234)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol, qwer1234) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol,qwer1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol123, qwer1234)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol123, qwer1234) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol123,qwer1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLogin(carol1, 1q2w3e4r)">
+                  </a> <!-- verifyUnsuccessfulLogin(carol1, 1q2w3e4r) -->
+                  <span class="method-name">verifyUnsuccessfulLogin</span>
+                  <span class="parameters">(carol1,1q2w3e4r)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.HomePageTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterText">
+                  </a> <!-- verifyFooterText -->
+                  <span class="method-name">verifyFooterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFooterText">
+                  </a> <!-- verifyFooterText -->
+                  <span class="method-name">verifyFooterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogOutProcess">
+                  </a> <!-- verifyLogOutProcess -->
+                  <span class="method-name">verifyLogOutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogOutProcess">
+                  </a> <!-- verifyLogOutProcess -->
+                  <span class="method-name">verifyLogOutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMainMenuLinkTitles">
+                  </a> <!-- verifyMainMenuLinkTitles -->
+                  <span class="method-name">verifyMainMenuLinkTitles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMainMenuLinkTitles">
+                  </a> <!-- verifyMainMenuLinkTitles -->
+                  <span class="method-name">verifyMainMenuLinkTitles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClasses.WorkerTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaginationWorkerPage">
+                  </a> <!-- verifyPaginationWorkerPage -->
+                  <span class="method-name">verifyPaginationWorkerPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToCreateWorker">
+                  </a> <!-- verifyToCreateWorker -->
+                  <span class="method-name">verifyToCreateWorker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWorkerSearch">
+                  </a> <!-- verifyWorkerSearch -->
+                  <span class="method-name">verifyWorkerSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Asus\eclipse-workspace\in.qabible\crossBrowserTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extentReport.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClasses.LoginPageTestClass&quot;/&gt;
+      &lt;class name=&quot;testClasses.HomePageTestClass&quot;/&gt;
+      &lt;class name=&quot;testClasses.WorkerTestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClasses.LoginPageTestClass&quot;/&gt;
+      &lt;class name=&quot;testClasses.HomePageTestClass&quot;/&gt;
+      &lt;class name=&quot;testClasses.ClientTestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">create</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyToCreateClient</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyToCreateWorker</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">paging</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPaginationClientPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPaginationWorkerPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">search</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyClientSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWorkerSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyToCreateWorker')
+data.setCell(0, 2, 'testClasses.WorkerTestClass')
+data.setCell(0, 3, 20293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyToCreateClient')
+data.setCell(1, 2, 'testClasses.ClientTestClass')
+data.setCell(1, 3, 15467);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyToCreateClient')
+data.setCell(2, 2, 'testClasses.ClientTestClass')
+data.setCell(2, 3, 7777);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyWorkerSearch')
+data.setCell(3, 2, 'testClasses.WorkerTestClass')
+data.setCell(3, 3, 3936);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPaginationWorkerPage')
+data.setCell(4, 2, 'testClasses.WorkerTestClass')
+data.setCell(4, 3, 3899);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLogOutProcess')
+data.setCell(5, 2, 'testClasses.HomePageTestClass')
+data.setCell(5, 3, 3659);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogOutProcess')
+data.setCell(6, 2, 'testClasses.HomePageTestClass')
+data.setCell(6, 3, 3547);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyUnsuccessfulLogin')
+data.setCell(7, 2, 'testClasses.LoginPageTestClass')
+data.setCell(7, 3, 3219);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verfySuccesfullLogin')
+data.setCell(8, 2, 'testClasses.LoginPageTestClass')
+data.setCell(8, 3, 2693);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyMainMenuLinkTitles')
+data.setCell(9, 2, 'testClasses.HomePageTestClass')
+data.setCell(9, 3, 2514);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyMainMenuLinkTitles')
+data.setCell(10, 2, 'testClasses.HomePageTestClass')
+data.setCell(10, 3, 2394);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verfySuccesfullLogin')
+data.setCell(11, 2, 'testClasses.LoginPageTestClass')
+data.setCell(11, 3, 2200);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyFooterText')
+data.setCell(12, 2, 'testClasses.HomePageTestClass')
+data.setCell(12, 3, 2117);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyFooterText')
+data.setCell(13, 2, 'testClasses.HomePageTestClass')
+data.setCell(13, 3, 2110);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyUnsuccessfulLogin')
+data.setCell(14, 2, 'testClasses.LoginPageTestClass')
+data.setCell(14, 3, 1538);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyUnsuccessfulLogin')
+data.setCell(15, 2, 'testClasses.LoginPageTestClass')
+data.setCell(15, 3, 1520);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyUnsuccessfulLogin')
+data.setCell(16, 2, 'testClasses.LoginPageTestClass')
+data.setCell(16, 3, 975);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyUnsuccessfulLogin')
+data.setCell(17, 2, 'testClasses.LoginPageTestClass')
+data.setCell(17, 3, 927);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyUnsuccessfulLogin')
+data.setCell(18, 2, 'testClasses.LoginPageTestClass')
+data.setCell(18, 3, 921);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyTheExpectedPageisOpensWhileHittingTheUrl')
+data.setCell(19, 2, 'testClasses.LoginPageTestClass')
+data.setCell(19, 3, 20);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyTheExpectedPageisOpensWhileHittingTheUrl')
+data.setCell(20, 2, 'testClasses.LoginPageTestClass')
+data.setCell(20, 3, 11);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyPaginationClientPage')
+data.setCell(21, 2, 'testClasses.ClientTestClass')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyClientSearch')
+data.setCell(22, 2, 'testClasses.ClientTestClass')
+data.setCell(22, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.ClientTestClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.HomePageTestClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createReport</span>
+                <br/>
+                <span class="ignored-method-name">createReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testClasses.WorkerTestClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">createReport(org.testng.TestRunner@444e4371)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">1404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verfySuccesfullLogin(carol, 1q2w3e4r)</span>
+                <span class="method-start">8978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verfySuccesfullLogin status=SUCCESS method=LoginPageTestClass.verfySuccesfullLogin(...)</span>
+                <span class="method-start">11676 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">11877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMainMenuLinkTitles</span>
+                <span class="method-start">14795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyMainMenuLinkTitles status=SUCCESS method=HomePageTestClass.verifyMainMenuLink...)</span>
+                <span class="method-start">17311 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.WorkerTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">17495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyToCreateWorker</span>
+                <span class="method-start">20387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyToCreateWorker status=SUCCESS method=WorkerTestClass.verifyToCreateWorker()[p...)</span>
+                <span class="method-start">40681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">40867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogOutProcess</span>
+                <span class="method-start">43967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogOutProcess status=SUCCESS method=HomePageTestClass.verifyLogOutProcess()[p...)</span>
+                <span class="method-start">47516 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">47798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol, qwer1234)</span>
+                <span class="method-start">50794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">52333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">52549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol1, 1q2w3e4r)</span>
+                <span class="method-start">55588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">56564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">56777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol123, qwer1234)</span>
+                <span class="method-start">59690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">60619 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.WorkerTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">60830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWorkerSearch</span>
+                <span class="method-start">63838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyWorkerSearch status=SUCCESS method=WorkerTestClass.verifyWorkerSearch()[pri:2...)</span>
+                <span class="method-start">67775 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">67946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterText</span>
+                <span class="method-start">71194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyFooterText status=SUCCESS method=HomePageTestClass.verifyFooterText()[pri:3, ...)</span>
+                <span class="method-start">73305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.WorkerTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">73451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPaginationWorkerPage</span>
+                <span class="method-start">76586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyPaginationWorkerPage status=SUCCESS method=WorkerTestClass.verifyPaginationWo...)</span>
+                <span class="method-start">80486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">80667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheExpectedPageisOpensWhileHittingTheUrl</span>
+                <span class="method-start">85078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyTheExpectedPageisOpensWhileHittingTheUrl status=SUCCESS method=LoginPageTestC...)</span>
+                <span class="method-start">85091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">85720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verfySuccesfullLogin(carol, 1q2w3e4r)</span>
+                <span class="method-start">88928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verfySuccesfullLogin status=SUCCESS method=LoginPageTestClass.verfySuccesfullLogin(...)</span>
+                <span class="method-start">91129 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">91342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMainMenuLinkTitles</span>
+                <span class="method-start">94297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyMainMenuLinkTitles status=SUCCESS method=HomePageTestClass.verifyMainMenuLink...)</span>
+                <span class="method-start">96693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.ClientTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">96926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyToCreateClient</span>
+                <span class="method-start">99931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyToCreateClient status=SKIP method=ClientTestClass.verifyToCreateClient()[pri:...)</span>
+                <span class="method-start">115414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">115649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyToCreateClient</span>
+                <span class="method-start">120114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">127892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">127893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClientSearch</span>
+                <span class="method-start">127894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">127896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">127897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogOutProcess</span>
+                <span class="method-start">132816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogOutProcess status=SUCCESS method=HomePageTestClass.verifyLogOutProcess()[p...)</span>
+                <span class="method-start">136476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">136766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol, qwer1234)</span>
+                <span class="method-start">150214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">151736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">151976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol1, 1q2w3e4r)</span>
+                <span class="method-start">156765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">157686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">157951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLogin(carol123, qwer1234)</span>
+                <span class="method-start">163804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyUnsuccessfulLogin status=SUCCESS method=LoginPageTestClass.verifyUnsuccessful...)</span>
+                <span class="method-start">167028 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.HomePageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">167254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFooterText</span>
+                <span class="method-start">174654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyFooterText status=SUCCESS method=HomePageTestClass.verifyFooterText()[pri:3, ...)</span>
+                <span class="method-start">176771 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.ClientTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">177054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPaginationClientPage</span>
+                <span class="method-start">177054 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(edge)</span>
+                <span class="method-start">177061 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.ClientTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">177061 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClasses.LoginPageTestClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTheExpectedPageisOpensWhileHittingTheUrl</span>
+                <span class="method-start">182753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyTheExpectedPageisOpensWhileHittingTheUrl status=SUCCESS method=LoginPageTestC...)</span>
+                <span class="method-start">182773 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

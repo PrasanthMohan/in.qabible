@@ -17,7 +17,7 @@ public class WorkerTestClass extends BaseClass {
 	public LoginPageClass lp;
 	public WorkerClass wc;
 
-	@Test(priority = 1, groups = {"group1"}, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 1, groups = { "create" }, retryAnalyzer = RetryAnalyzer.class)
 	public void verifyToCreateWorker() throws IOException {
 		lp = new LoginPageClass(driver);
 		hp = new HomePageClass(driver);
@@ -33,18 +33,14 @@ public class WorkerTestClass extends BaseClass {
 				RandomDataUtilityClass.getPostCode(), wc.readStringData(19, 0), wc.readStringData(19, 1),
 				wc.readStringData(19, 2), wc.readStringData(19, 3), wc.readStringData(19, 4), "123456");
 
-		wc.createWorkerAccountDetails(wc.readStringData(19, 6),
-										wc.readStringData(19, 7),
-										fName+" "+lName,
-										wc.readIntegerData(19, 9),
-										wc.readIntegerData(19, 10),
-										"01-07-2024");
-		String expectedResult = fName+" "+lName;
+		wc.createWorkerAccountDetails(wc.readStringData(19, 6), wc.readStringData(19, 7), fName + " " + lName,
+				wc.readIntegerData(19, 9), wc.readIntegerData(19, 10), "01-07-2024");
+		String expectedResult = fName + " " + lName;
 		String actualResult = wc.getNameOfCreatedWorker();
 		Assert.assertEquals(actualResult, expectedResult);
 	}
 
-	@Test(priority = 2, groups = {"group2"}, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 2, groups = { "search" }, retryAnalyzer = RetryAnalyzer.class)
 	public void verifyWorkerSearch() throws IOException {
 		readProperty();
 		lp = new LoginPageClass(driver);
@@ -53,7 +49,7 @@ public class WorkerTestClass extends BaseClass {
 
 		lp.login(lp.readStringData(1, 0), lp.readStringData(1, 1));
 		hp.clickOnWorkerMenu();
-		wc.initiateWorkerSearch(wc.readStringData(23, 0), wc.readStringData(23, 1) );
+		wc.initiateWorkerSearch(wc.readStringData(23, 0), wc.readStringData(23, 1));
 		driver.get(property.getProperty("workerSearch"));
 
 		int status = wc.workerSearchResultCheck(wc.readStringData(23, 0), wc.readStringData(23, 1));
@@ -62,7 +58,7 @@ public class WorkerTestClass extends BaseClass {
 		Assert.assertEquals(actualResult, expectedResult);
 	}
 
-	@Test(priority = 3, groups = {"group3"}, retryAnalyzer = RetryAnalyzer.class)
+	@Test(priority = 3, groups = { "paging" }, retryAnalyzer = RetryAnalyzer.class)
 	public void verifyPaginationWorkerPage() throws IOException {
 		lp = new LoginPageClass(driver);
 		hp = new HomePageClass(driver);
@@ -70,7 +66,7 @@ public class WorkerTestClass extends BaseClass {
 
 		lp.login(lp.readStringData(1, 0), lp.readStringData(1, 1));
 		hp.clickOnWorkerMenu();
-		boolean result = wc.checkWorkerPagePagination(); 
+		boolean result = wc.checkWorkerPagePagination();
 		Assert.assertTrue(result);
 	}
 

@@ -15,50 +15,65 @@ import utilities.ExplicitWaitClass;
 import utilities.GeneralUtilities;
 
 public class LoginPageClass {
-	
+
 	public WebDriver driver;
 	GeneralUtilities guObj = new GeneralUtilities();
 	ExplicitWaitClass ewcObj = new ExplicitWaitClass();
-	
-	public LoginPageClass(WebDriver driver){
-		this.driver= driver;
+
+	public LoginPageClass(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	@FindBy(id="loginform-username")
+
+	@FindBy(id = "loginform-username")
 	WebElement userNameTextBox;
-	
-	@FindBy(id="loginform-password")
+
+	@FindBy(id = "loginform-password")
 	WebElement userPassword;
-	
-	@FindBy(name="login-button")
+
+	@FindBy(name = "login-button")
 	WebElement loginButton;
-	
-	@FindBy(xpath="(//p[@class='help-block help-block-error'])[2]")
+
+	@FindBy(xpath = "(//p[@class='help-block help-block-error'])[2]")
 	WebElement loginErrorMessage;
 
-	
-	public void login(String username, String password) {
+	public LoginPageClass login(String username, String password) {
 		guObj.typeOnElement(userNameTextBox, username);
-		guObj.typeOnElement(userPassword, password);	
-		guObj.clickOnAnElement(loginButton);	
+		guObj.typeOnElement(userPassword, password);
+		guObj.clickOnAnElement(loginButton);
+		return this;
 	}
-	
+
+	public LoginPageClass enterUsername(String username) {
+		ewcObj.elementToBeClickableByLocator(driver, userNameTextBox);
+		guObj.typeOnElement(userNameTextBox, username);
+		return this;
+	}
+
+	public LoginPageClass enterPassword(String password) {
+		ewcObj.elementToBeClickableByLocator(driver, userPassword);
+		guObj.typeOnElement(userPassword, password);
+		return this;
+	}
+
+	public LoginPageClass clickOnLoginButton() {
+		guObj.clickOnAnElement(loginButton);
+		return this;
+	}
 
 	public String getErrorMessageOnLoginFailure() {
 		ewcObj.visibitlityOfElementWait(driver, loginErrorMessage);
 		return guObj.getTextOfElement(loginErrorMessage);
 	}
-	
+
 	public String getHomePageURL() {
 		return guObj.getCurrentPageUrl(driver);
 	}
-	
-	
+
 	public String readStringData(int row, int column) throws IOException {
 		return ExcelReadClass.getStringData(row, column);
 	}
-	
+
 	public String readIntegerData(int row, int column) throws IOException {
 		return ExcelReadClass.getIntegerData(row, column);
 	}

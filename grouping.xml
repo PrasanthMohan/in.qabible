@@ -10,15 +10,16 @@
     <groups>
 		<run>
 			<include name="launch"></include>
-			<include name="group1"></include>
-			<exclude name="group2"></exclude>
+			<include name="create"></include>
+			<include name="search"></include>
+			<include name="paging"></include>
 			<include name="close"></include>
 		</run>	
 	</groups>
 
 	<classes>
       <class name="testClasses.LoginPageTestClass"/>
-      <class name="testClasses.RegisterPatientTestClass"/>
+      <class name="testClasses.HomePageTestClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

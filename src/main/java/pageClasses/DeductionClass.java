@@ -54,10 +54,10 @@ public class DeductionClass {
 
 	@FindBy(xpath = "//a[@href='/payrollapp/deduction/index']")
 	WebElement deductionLink;
-	
+
 	@FindBy(xpath = "//table[@class='table table-striped table-bordered']//tbody//tr[1]")
 	WebElement deductionTable;
-	
+
 	@FindBy(xpath = "(//table[@class='table table-striped table-bordered']//tbody//tr//td)[2]")
 	WebElement workerN;
 	@FindBy(xpath = "(//table[@class='table table-striped table-bordered']//tbody//tr//td)[3]")
@@ -66,10 +66,10 @@ public class DeductionClass {
 	WebElement deductionAmountValue;
 	@FindBy(xpath = "(//table[@class='table table-striped table-bordered']//tbody//tr//td[7]//a[1])[1]")
 	WebElement deductionViewLink;
-	
+
 	@FindBy(xpath = "//table[@id='w0']//tr//td")
 	WebElement deductionViewPageTable;
-	
+
 	@FindBy(xpath = "//table[@id='w0']//tr[1]//td")
 	WebElement deductionViewPageworkerN;
 
@@ -78,7 +78,6 @@ public class DeductionClass {
 
 	@FindBy(xpath = "//table[@id='w0']//tr[3]//td")
 	WebElement deductionViewPageAmount;
-		
 
 	public void createDeduction(String worker, String type, String amount, String effectiveFrom) {
 		ewcObj.elementToBeClickableByLocator(driver, deductionWorkerArrow);
@@ -103,7 +102,7 @@ public class DeductionClass {
 		return guObj.getTextOfElement(ShownWorkerName);
 
 	}
-	
+
 	public void clickOnDeductionLink() {
 		ewcObj.visibitlityOfElementWait(driver, deductionLink);
 		guObj.clickOnAnElement(deductionLink);
@@ -117,10 +116,12 @@ public class DeductionClass {
 		deductionDetailsAraay[2] = guObj.getTextOfElement(deductionAmountValue);
 		return deductionDetailsAraay;
 	}
+
 	public void clickOnFirstDeductionLink() {
 		ewcObj.visibitlityOfElementWait(driver, deductionViewLink);
 		guObj.clickOnAnElement(deductionViewLink);
 	}
+
 	public String[] viewPageData() {
 		ewcObj.visibitlityOfElementWait(driver, deductionViewPageTable);
 		String deductionDetailsPageAraay[] = new String['3'];
@@ -129,7 +130,7 @@ public class DeductionClass {
 		deductionDetailsPageAraay[2] = guObj.getTextOfElement(deductionViewPageAmount);
 		return deductionDetailsPageAraay;
 	}
-	
+
 	public String readStringData(int row, int column) throws IOException {
 		return ExcelReadClass.getStringData(row, column);
 	}
